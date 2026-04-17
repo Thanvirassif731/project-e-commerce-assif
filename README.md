@@ -21,6 +21,10 @@ A full working MERN model e-commerce application with:
 - `client`: React storefront app
 - root scripts to run both apps together
 
+## Deployment Guides
+
+- Kubernetes: [KUBERNETES-README.md](KUBERNETES-README.md)
+
 ## Requirements
 
 - Node.js 18+
