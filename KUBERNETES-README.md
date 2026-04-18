@@ -77,10 +77,10 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ```
 cd server
-docker build -t mern-ecom-server:1.0.0 
+docker build -t mern-ecom-server:1.0.0 .
 
 cd ../client
-docker build --build-arg VITE_API_URL=http://localhost:5000/api -t mern-ecom-client:1.0.0 
+docker build --build-arg VITE_API_URL=http://localhost:5000/api -t mern-ecom-client:1.0.0 .
 ```
 
 ### 2.3 (Optional but recommended) Create `.dockerignore` files
